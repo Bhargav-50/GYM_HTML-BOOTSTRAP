@@ -1,0 +1,118 @@
+body {
+    background-color: black;
+}
+.hero-section{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+div#navbarSupportedContent {
+    margin-left: 400px;
+}
+a.nav-link.active {
+    color: #D22D38;
+}
+span {
+    font-size: 30px;
+    color: red;
+    font-family: emoji;
+    font-weight: bold;
+}
+a.nav-link {
+    color: #fff;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
+}
+a.navbar-brand {
+    color: white;
+    margin-left: 20px;
+}
+ul {
+    list-style-type: none;
+    margin-right: 100px;
+}
+li.contact {
+    margin-top: 15px;
+}
+section#hero {
+    margin-top: 200px;
+    padding-bottom: 200px;
+    margin-left: 200px;
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 100px;
+    background: -webkit-linear-gradient(90deg,#F5F0EF, #9A4634);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+button.btn.btn-primary.btn-sm {
+    background-image: linear-gradient(90deg,#ff0000, #931803);
+    border: none;
+    box-shadow: 1px 1px  #931803;
+}
+button.navbar-toggler::before {
+    content: '\f0c9';
+    font-family: fontAwesome;
+    line-height: 40px;
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 18px;
+}
+button.navbar-toggler.active::before {
+    content: '\f00d';
+}
+.container-fluid.hero-section {
+    padding: 0px;
+}
+.nav-sec{
+    background-color: #d3d2d22f;
+}
+.about-us {
+    margin-top: 20px;
+    text-align: center;
+}
+h2 {
+    padding-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 60px;
+    background: -webkit-linear-gradient(90deg,#F5F0EF, #9A4634);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+hr:not([size]) {
+    height: 5px;
+    width: 50px;
+    color: red;
+    margin-top: 50px;
+}
+.row.align-item-center {
+    margin-top: 50px;
+}
+section#about-us {
+    background-color: black;
+}
+
+h4 {
+    color: white;
+}
+section#about-us {
+    padding-bottom: 30px;
+}
+section.projects {
+    background-color: black;
+}
+.card-body {
+    background-color: black;
+}
+.map{
+    padding: 80px;
+}
